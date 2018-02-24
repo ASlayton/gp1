@@ -1,0 +1,134 @@
+/* GENERIC STYLING */
+body {
+  background-color: #474747;
+  height: 100%;
+}
+
+*{
+  box-sizing: border-box;
+}
+
+.content-wrapper {
+  clear: both;
+  background-color: #99ccff;
+  width: 50%;
+  margin: 0 auto;
+  display: table;
+  border-left: 5px solid white;
+  border-right: 5px solid white;
+  border-bottom: 5px solid white;
+}
+
+li {
+  list-style: none;
+}
+
+.rain-bullet {
+  width: 10px;
+}
+
+.float-right {
+  float: right;
+  width: 72%;
+  display: table-column;
+  padding-right: 2em;
+}
+
+.float-left {
+  float: left;
+  width: 25%;
+  display: table-column;
+  padding-right: 0;
+  margin-right: 0;
+  border-right: 1px solid white;
+}
+
+.float-left article {
+  border-bottom: 1px solid white;
+  width: 100%;
+  margin: 0;
+  padding: 1em;
+}
+
+.float-left article p {
+  padding-left: 1em;
+}
+
+.float-right article {
+  padding-left: 2em;
+}
+
+/* HEADER/FOOTER STYLINGS */
+header {
+  background-image: url(img/win-rain.jpg);
+  background-position: center;
+  width: 50%;
+  margin: 0 auto;
+  height: 15em;
+  border: 5px solid white;
+}
+
+header h1, header h3 {
+  float: right;
+  clear: both;
+
+}
+
+header h1 {
+  color: white;
+  marign-bottom: 0;
+}
+
+header h3 {
+  margin-top: o;
+}
+
+footer {
+  clear: both;
+  width: 100%;
+  margin: 0 auto;
+  text-align: right;
+  color:white;
+}
+
+footer nav {
+  padding-right: 2em;
+}
+
+footer nav a {
+  padding: .5em;
+}
+
+.give-me-gradient {
+  background: -webkit-gradient(linear, left bottom, right top, color-stop(0%, #00334F), color-stop(3%, #003651), color-stop(62%, #008080), color-stop(79%, #008080));
+  border: 1px solid white;
+  color: white;
+}
+
+/* LINK STYLES */
+a{
+  color: #369;
+}
+
+footer nav a {
+  color: white;
+}
+
+nav ul {
+  padding: 0;
+  margin: 0;
+  width: 100%;
+}
+
+li {
+  color: #369;
+}
+
+.float-left article nav a {
+  text-decoration: none;
+}
+
+.no-style-link {
+  color: black;
+  text-decoration: none;
+}
