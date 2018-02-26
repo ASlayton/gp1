@@ -2,6 +2,7 @@
 body {
   background-color: #474747;
   height: 100%;
+    font-family:'Open Sans Condensed', sans-serif;
 }
 
 *{
@@ -11,7 +12,7 @@ body {
 .content-wrapper {
   clear: both;
   background-color: #99ccff;
-  width: 50%;
+  width: 800px;
   margin: 0 auto;
   display: table;
   border-left: 5px solid white;
@@ -62,7 +63,7 @@ li {
 header {
   background-image: url(img/win-rain.jpg);
   background-position: center;
-  width: 50%;
+  width: 800px;
   margin: 0 auto;
   height: 15em;
   border: 5px solid white;
@@ -71,12 +72,11 @@ header {
 header h1, header h3 {
   float: right;
   clear: both;
-
 }
 
 header h1 {
   color: white;
-  marign-bottom: 0;
+  margin-bottom: 0;
 }
 
 header h3 {
@@ -108,6 +108,10 @@ footer nav a {
 /* LINK STYLES */
 a{
   color: #369;
+}
+
+a:hover {
+  color: white;
 }
 
 footer nav a {
