@@ -1,6 +1,6 @@
-#CSS ZEN GARDEN
+# CSS ZEN GARDEN
 
-##Group Project 1
+## Group Project 1
 
 **Description**
 A re-creation of CSS Zen Garden No. 80.
